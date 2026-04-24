@@ -8,7 +8,7 @@ async function submitData() {
     .filter(item => item.length > 0);
 
   try {
-    const response = await fetch("http://localhost:5000/bfhl", {
+    const response = await fetch("https://srm-fullstack-challenge-5jed.onrender.com/bfhl", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
